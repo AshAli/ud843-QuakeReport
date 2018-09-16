@@ -54,6 +54,7 @@ public final class QueryUtils {
     public static List<Earthquake> fetchEarthquakeData(String requestUrl) {
 
         try {
+            //This is specifically to show that the loading icon can be shown beforehand
             Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
